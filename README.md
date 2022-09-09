@@ -17,8 +17,7 @@ Answer 20 randomly generated true/false questions on the topic(s) of your choosi
 ### Executing the program
 
 * Changing the quiz parameters: 
-  * Open `data.py`
-  * To change the quiz, update the parameters in the "parameters" dictionary
+  * To change the quiz, Open `data.py` and update the `parameters = {}` dictionary.
     * In order to get the correct parameter values, go to https://opentdb.com/api_config.php to select the preferred options and generate the API link.
     * For example: https://opentdb.com/api.php?amount=20&category=9&difficulty=hard&type=multiple translates to the following quiz parameters:
       ```sh
